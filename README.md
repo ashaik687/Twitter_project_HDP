@@ -21,13 +21,9 @@ Step 6 : RAW JSON data will be stored in HDFS
 
 WORK FLOW TO PERFORM SENTIMENTAL ANALYSIS OF MOVIE
 
-Step 1 : Upload the two files dictionary.tsv  and   time_zone_map.tsv into HDFS. 
+Step 1 : Upload the two files dictionary.tsv  and   time_zone_map.tsv into HDFS.	Dictionary file acts as a dictionary to analyze which word is positive and which is negative.Time map file gives the location of the person so that we can analyze which county is positive on the movie.
  	 
- 	 	Dictionary file acts as a dictionary to analyze which word is positive and which is negative.
- 	 
- 	 Time map file gives the location of the person so that we can analyze which county is positive on the movie.
- 	 
- 	 Step 2 : Run the hive script  
+Step 2 : Run the hive script  
 
 
 WORK FLOW TO PERFORM INFLUENTIAL PERSON USING HIVE BY MAX RETWEETS
